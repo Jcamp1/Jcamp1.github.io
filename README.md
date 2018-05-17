@@ -1,2 +1,2 @@
 # github.io
-Jacob's Portfolio Website
+My crappy portfolio website.  It's basically still a prototype/playground for learning. 
