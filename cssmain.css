@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html { 
+    height: 100% 
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+}
+#mapPanel{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    margin: auto;
+    padding: 10px;
+    height: 75px;
+}
+nav>ul{
+    padding-top: 4px;
+}
+
+#mainMap{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+#locs {
+    position: absolute;
+    z-index: 2;
+    left: 3%;
+    top: 1%; 
+}
+@media only screen and (min-width: 320px) and (max-width: 630px) {
+    #nav-menu-1 {
+    display: none;
+    }
+}
+@media only screen and (min-width: 631px){
+    #nav-menu-2 {
+    display: none;
+    }
+}
+  #nav-menu-2{
+      padding-top: 1.5%;
+  }
+
+
