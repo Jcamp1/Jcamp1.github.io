@@ -1,55 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-@media only screen and (min-width: 320px) and (max-width: 630px) {
-    #nav-menu-1 {
-    display: none;
-    }
-}
-@media only screen and (min-width: 631px){
-    #nav-menu-2 {
-    display: none;
-    }
-}
-#nav-menu-2{
-      padding-top: 1.5%;
-}
-.navbar{
-    border-radius: 0px;
-    margin: auto;
-    padding: 10px;
-    height: 75px;
-}
-nav>ul{
-    padding-top: 4px;
-}
-body {
+body,html{
     font-family: 'Montserrat', sans-serif;
-    height: 100%; 
-    margin: 0; 
-    padding: 0;
+    min-height: 100vh;
 }
+
+#mainNav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+
+#navLinks>li>a{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5px;
+}
+
+
+
+#brand:hover, #mainFooter>div>ul>li>a>i:hover{
+    color: rgb(204, 204, 204);
+}
+
+#content{
+    margin-top: 56px;
+}
+
+
+
+#mainFooter>div>ul>li>a{
+    padding-right: 11px;
+    padding-left: 11px;
+}
+
+.customText{
+    color: #F2F2F2
+}
+
+.nav-pills>li>a:hover{
+    background-color: #F2F2F2;
+    color: black
+}
+
 #mainMap{
-    box-shadow: 10px 10px 8px #888888;
-    border-radius: 10px;
-    width: 90%;
-    height: 800px;
-    margin: auto;
-    border: 1.5px solid black;
-}
-#header{
-    margin: auto;
-    text-align: center;
-    padding: 10px
-}
-#mainMap-header{
-    margin: auto;
-    text-align: center;
-    padding: 10px
-}
-#footer{
-    margin: auto;
-    text-align: center;
-    padding: 10px
+    height: 100%;
+    width: 100%;
 }
 #refreshContainer{
     margin-left: 10px;
@@ -73,3 +71,15 @@ body {
     margin-top: 3px;
     margin-bottom: 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+

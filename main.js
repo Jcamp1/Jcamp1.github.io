@@ -1,9 +1,38 @@
 
 
-
-
 //Comments for the code below are in progress, lol
 
+
+//Code for setting the active navigation pill depending on which page you are viewing
+ $(document).ready(function() {
+    var pathname = window.location.pathname.split("/").pop();
+    $(".nav").find(".active").addClass("text-primary");
+    $(".nav").find(".active").removeClass("active");
+    $('.nav > li > a[href="'+pathname+'"]').addClass('active');
+    $('.nav > li > a[href="'+pathname+'"]').removeClass('text-primary');
+});
+
+
+//Check screen width for nav menu responsiveness
+$(document).ready(function() {
+    checkWidth(true);
+
+    $(window).resize(function() {
+        checkWidth(false);
+    });
+});
+
+//Function that handles responsiveness of nav menu
+function checkWidth(init) {
+
+    if ($(window).width() > 750) {
+        $("#navItems").collapse('hide');
+        $('.nav-pills').removeClass('flex-column');
+    }
+    else{
+        $('.nav-pills').addClass('flex-column');
+    }
+};
 
 let updateBtn = document.querySelector("#refreshBtn");
 let updateText = document.querySelector("#refreshStatus");
@@ -131,3 +160,4 @@ updateBtn.addEventListener('click',function(){
 
 updateBusData()
 updateText.innerHTML = lastUpdate()
+

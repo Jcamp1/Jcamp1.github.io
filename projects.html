@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jacob's Portfolio</title>
+</head>
+<body class="d-flex flex-column">
+    <nav id ="mainNav" class="navbar navbar-expand-md bg-dark navbar-dark shadow" role="navigation">
+
+        <a id="brand" class="navbar-brand" href="index.html">Jacob Campbell</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navItems"
+            aria-controls="#navItems">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-md-end" id="navItems">
+            <ul class="nav nav-pills" id="navLinks">
+                <li class="nav-item">
+                    <a class="nav-link customText" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link customText" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link customText" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link customText" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link customText" href="resume.html">Résumé</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container-fluid d-flex justify-content-center flex-column flex-grow-1" id="content">
+
+        <div class="d-flex flex-column container-fluid justify-content-center p-4 text-center flex-grow-2">
+            <h1>
+                My header, explaining projects or whatever
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolorum, eum facere voluptatum enim maxime quam, repellendus error esse aspernatur nesciunt voluptatem dicta nobis eos labore? Consectetur eaque eius in!</p>
+        </div>
+        <div class="container flex-grow-0" id="cards">
+            <div class="card-deck">
+                <div class="col-sm-6 col-md-4 col-lg-3 flex-grow-1">
+                    <div class="card mb-4 mt-4 text-white bg-dark shadow-lg">
+                        <img class="card-img-top img-fluid" src="bus_map_img.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Live Bus Map</h4>
+                            <p class="card-text">I created this map using Leaflet and WMATA's Bus API. More features to come..</p>
+                            <a href="bus_map.html" class="btn btn-outline-light btn-sm">Visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card mb-4 mt-4 text-white bg-dark shadow-lg">
+                        <img class="card-img-top img-fluid" src="https://via.placeholder.com/300" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Placeholder Project 2</h4>
+                            <p class="card-text">This is placeholder text for testing the respoinsivness and resizing of the cards.  Still slightly broken, cards do not share a uniform height</p>
+                            <a href="#" class="btn btn-outline-light btn-sm">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card mb-4 mt-4 text-white bg-dark shadow-lg">
+                        <img class="card-img-top img-fluid" src="https://via.placeholder.com/300" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Placeholder Project 3</h4>
+                            <p class="card-text">This is placeholder text for testing the respoinsivness and resizing of the cards.  Still slightly broken, cards do not share a uniform height</p>
+                            <a href="#" class="btn btn-outline-light btn-sm">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card mb-4 mt-4 text-white bg-dark shadow-lg">
+                        <img class="card-img-top img-fluid" src="https://via.placeholder.com/300" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Placeholder Project 4</h4>
+                            <p class="card-text">This is placeholder text for testing the respoinsivness and resizing of the cards.  Still slightly broken, cards do not share a uniform height</p>
+                            <a href="#" class="btn btn-outline-light btn-sm">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer class="bg-dark justify-content-center" id="mainFooter">
+        
+        <div class="container-fluid">
+            <ul class="list-unstyled list-inline text-center pt-3">
+                <li class="list-inline-item">
+                    <a href="resume.html" class="text-white"><i class="fab fa-lg fa-github"></i></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="resume.html" class="text-white"><i class="fab fa-lg fa-linkedin-in"></i></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="resume.html" class="text-white"><i class="fas fa-lg fa-envelope"></i></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="resume.html" class="text-white"><i class="fas fa-lg fa-share-alt"></i></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-copyright text-muted text-center pb-2">
+            © 2019 Jacob Campbell
+        </div>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
