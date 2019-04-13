@@ -21,6 +21,35 @@
     <title>Jacob's Portfolio Website</title>
 </head>
 <body class="d-flex flex-column">
+    <nav id ="mainNav" class="navbar navbar-expand-md bg-dark navbar-dark shadow rounded-bottom" role="navigation">
+
+        <a id="brand" class="navbar-brand" href="index.html">Jacob Campbell</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navItems"
+            aria-controls="#navItems">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navItems">
+            <ul class="nav nav-pills" id="navLinks">
+                <li class="nav-item">
+                    <a class="nav-link customText" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link customText" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link customText" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link customText" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link customText" href="resume.html">Résumé</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <section class="flex-grow-1" id="content">
             <div id="mainMap">
                 <div id = "refreshContainer"  class="pb-4 leaflet-bottom leaflet-left">
@@ -30,7 +59,30 @@
             </div>
         </div>
     </section>
+    <footer class="bg-dark justify-content-center" id="mainFooter">
+        
+        <div class="container-fluid">
+            <ul class="list-unstyled list-inline text-center pt-3">
+                <li class="list-inline-item">
+                    <a href="resume.html" class="text-white"><i class="fab fa-lg fa-github"></i></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="resume.html" class="text-white"><i class="fab fa-lg fa-linkedin-in"></i></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="resume.html" class="text-white"><i class="fas fa-lg fa-envelope"></i></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="resume.html" class="text-white"><i class="fas fa-lg fa-share-alt"></i></a>
+                </li>
+            </ul>
+        </div>
 
+        <div class="footer-copyright text-muted text-center pb-2">
+            © 2019 Jacob Campbell
+        </div>
+
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>
