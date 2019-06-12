@@ -57,7 +57,6 @@ body,html{
 }
 #refreshBtn{
     font-weight: bold;
-    border-radius: 10px;
     pointer-events: auto;
     width: 200px;
     height: 25px;
@@ -65,7 +64,6 @@ body,html{
 }
 #refreshStatus{
     font-style: italic;
-    border-radius: 10px;
     background-color: grey;
     opacity: 0.8;
     text-align: center;

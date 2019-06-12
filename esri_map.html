@@ -18,6 +18,8 @@
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
     integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
     crossorigin=""></script>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.11/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.11/"></script>
     <title>Jacob's Portfolio Website</title>
 </head>
 <body class="d-flex flex-column">
@@ -51,12 +53,7 @@
         </div>
     </nav>
     <section class="flex-grow-1" id="content">
-            <div id="mainMap">
-                <div id = "refreshContainer" class="pb-4 leaflet-bottom leaflet-left">
-                    <input class="shadow rounded" type="button" id="refreshBtn" value="Update Bus Locations"/>
-                    <p id="refreshStatus" class="customText rounded shadow"></p>
-                </div>
-            </div>
+        <div id="esriMap"></div>
     </section>
     <footer class="bg-dark justify-content-center" id="mainFooter">
         
@@ -83,6 +80,5 @@
 
     </footer>
     <script src="main.js"></script>
-    <script src="bus.js"></script>
 </body>
 </html>
