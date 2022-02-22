@@ -38,7 +38,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     id: 'mapbox.streets',
-    accessToken: 'pk.eyJ1IjoiamNhbXAxIiwiYSI6ImNqZnU2NWtoZDQxbmQzOG52eXE0bHc4OGMifQ.UP-MWplkm4IzxoH3TJmqoQ'
+    accessToken: 'pk.eyJ1IjoiamNhbXAxIiwiYSI6ImNrenhka2NxMDAwOHMyb213c3Y5bmI3NzUifQ.XD_Fp900TvN2gsUbOnkUmg'
 }).addTo(myMap);
 
 
